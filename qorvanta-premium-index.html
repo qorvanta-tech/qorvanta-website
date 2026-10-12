@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#07111f">
+  <meta name="description" content="QORVANTA builds modern websites, AI solutions, business automations, apps, and promotional videos.">
+  <title>QORVANTA — Technology, Reimagined</title>
+  <style>
+    :root{--bg:#07111f;--panel:#0d1b2c;--panel2:#10243a;--text:#f4f8ff;--muted:#a8b8ca;--cyan:#48e4ee;--blue:#5594ff;--line:rgba(178,211,245,.15);--radius:22px}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(ellipse at 80% 0%,rgba(44,120,190,.18),transparent 34%),var(--bg);color:var(--text);font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.6}
+    a{color:inherit;text-decoration:none}.wrap{width:min(1120px,calc(100% - 40px));margin:auto}
+    .nav{display:flex;align-items:center;justify-content:space-between;padding:22px 0;gap:18px}.brand{display:flex;align-items:center;gap:10px;font-size:1.1rem;font-weight:850;letter-spacing:.13em}.brand-mark{display:grid;place-items:center;width:36px;height:36px;border-radius:12px;background:linear-gradient(135deg,var(--cyan),var(--blue));color:#07111f;font-weight:950;letter-spacing:0}
+    .navlinks{display:flex;gap:24px;align-items:center;color:var(--muted);font-size:.92rem}.navlinks a:hover{color:var(--cyan)}.btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;padding:12px 18px;border-radius:999px;background:linear-gradient(100deg,var(--cyan),#8cf5f4);color:#06121f;font-weight:800;border:0;box-shadow:0 8px 28px rgba(72,228,238,.13);transition:transform .2s,filter .2s}.btn:hover{transform:translateY(-2px);filter:brightness(1.06)}.btn.secondary{background:transparent;border:1px solid var(--line);box-shadow:none;color:var(--text)}
+    .hero{padding:72px 0 86px;display:grid;grid-template-columns:1.12fr .88fr;align-items:center;gap:55px;min-height:560px}.eyebrow{display:inline-flex;align-items:center;gap:9px;border:1px solid rgba(72,228,238,.24);border-radius:999px;padding:7px 12px;color:#aafaff;background:rgba(72,228,238,.06);font-size:.8rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase}.dot{height:7px;width:7px;background:var(--cyan);border-radius:50%;box-shadow:0 0 14px var(--cyan)}h1{font-size:clamp(2.8rem,6.5vw,5.1rem);line-height:1.02;letter-spacing:-.055em;margin:23px 0}.gradient{background:linear-gradient(95deg,#fff 5%,#8ef8fa 50%,#73a9ff 95%);-webkit-background-clip:text;background-clip:text;color:transparent}.lead{max-width:590px;color:var(--muted);font-size:1.08rem}.actions{display:flex;flex-wrap:wrap;gap:12px;margin:28px 0}.trust{display:flex;gap:20px;flex-wrap:wrap;color:#c1d0e0;font-size:.86rem;margin-top:24px}.trust span:before{content:"✓";color:var(--cyan);margin-right:8px}
+    .visual{position:relative;min-height:380px;display:grid;place-items:center}.orb{position:absolute;width:min(340px,80vw);aspect-ratio:1;border-radius:50%;background:radial-gradient(circle at 35% 28%,rgba(110,247,248,.7),rgba(51,131,255,.2) 32%,rgba(30,75,132,.12) 58%,transparent 70%);filter:blur(2px);animation:float 7s ease-in-out infinite}.orbit{position:absolute;width:310px;height:310px;border:1px solid rgba(98,222,245,.25);border-radius:50%;transform:rotate(-25deg) scaleY(.38)}.orbit.two{width:270px;height:270px;transform:rotate(48deg) scaleY(.5);border-color:rgba(96,152,255,.35)}.core{position:relative;width:180px;height:180px;border-radius:35%;display:grid;place-items:center;background:linear-gradient(145deg,rgba(72,228,238,.18),rgba(85,148,255,.12));border:1px solid rgba(127,240,250,.4);box-shadow:0 0 70px rgba(55,164,232,.22),inset 0 0 40px rgba(72,228,238,.08);font-size:3.5rem}.float-card{position:absolute;border:1px solid var(--line);border-radius:16px;background:rgba(13,27,44,.86);backdrop-filter:blur(12px);padding:12px 15px;box-shadow:0 12px 36px rgba(0,0,0,.18);font-size:.84rem}.float-card b{display:block;font-size:.95rem}.float-card small{color:var(--muted)}.fc1{top:30px;right:0}.fc2{bottom:32px;left:0}.fc3{bottom:62px;right:-5px}@keyframes float{50%{transform:translateY(-12px) scale(1.03)}}
+    section{padding:76px 0}.section-head{max-width:680px;margin:0 auto 38px;text-align:center}.kicker{color:var(--cyan);text-transform:uppercase;letter-spacing:.14em;font-weight:800;font-size:.76rem}.section-head h2{font-size:clamp(2rem,4vw,3rem);line-height:1.12;letter-spacing:-.04em;margin:12px 0}.section-head p{color:var(--muted);margin:0}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.card{padding:25px;border:1px solid var(--line);border-radius:var(--radius);background:linear-gradient(145deg,rgba(16,36,58,.82),rgba(9,22,37,.92));transition:transform .2s,border-color .2s}.card:hover{transform:translateY(-5px);border-color:rgba(72,228,238,.45)}.icon{width:48px;height:48px;display:grid;place-items:center;border-radius:15px;background:rgba(72,228,238,.1);border:1px solid rgba(72,228,238,.16);font-size:1.45rem}.card h3{margin:18px 0 8px;font-size:1.15rem}.card p{margin:0;color:var(--muted);font-size:.94rem}.tag{display:inline-block;margin-top:18px;font-size:.82rem;color:#aafaff;font-weight:750}
+    .band{border-top:1px solid var(--line);border-bottom:1px solid var(--line);background:linear-gradient(100deg,rgba(16,36,58,.6),rgba(7,17,31,.35))}.split{display:grid;grid-template-columns:1fr 1fr;gap:44px;align-items:center}.split h2{font-size:clamp(2rem,4vw,3rem);line-height:1.1;letter-spacing:-.04em;margin:12px 0}.split p{color:var(--muted)}.checks{list-style:none;padding:0;margin:22px 0}.checks li{margin:11px 0;color:#d9e6f4}.checks li:before{content:"✓";color:var(--cyan);font-weight:900;margin-right:11px}.process{display:grid;gap:12px}.step{display:flex;gap:15px;align-items:flex-start;padding:17px;border:1px solid var(--line);border-radius:17px;background:rgba(13,27,44,.6)}.num{flex:0 0 36px;height:36px;border-radius:12px;display:grid;place-items:center;color:var(--cyan);background:rgba(72,228,238,.09);font-weight:850}.step b{display:block}.step small{color:var(--muted)}
+    .projects{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.project{overflow:hidden;border-radius:20px;border:1px solid var(--line);background:var(--panel)}.project-art{height:155px;display:grid;place-items:center;font-size:3rem;background:radial-gradient(circle at 30% 30%,rgba(72,228,238,.28),transparent 40%),linear-gradient(135deg,#122b44,#0a1424)}.project-body{padding:19px}.project-body h3{margin:0 0 6px}.project-body p{margin:0;color:var(--muted);font-size:.9rem}.demo-note{text-align:center;color:var(--muted);font-size:.82rem;margin-top:17px}
+    .pricing{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.price-card{position:relative;padding:25px;border:1px solid var(--line);border-radius:22px;background:rgba(13,27,44,.8)}.price-card.featured{border-color:rgba(72,228,238,.65);box-shadow:0 0 34px rgba(72,228,238,.08)}.popular{position:absolute;top:14px;right:14px;font-size:.7rem;color:#07111f;background:var(--cyan);padding:4px 8px;border-radius:999px;font-weight:900}.price-card h3{margin:0}.price{font-size:2.2rem;font-weight:900;letter-spacing:-.04em;margin:13px 0}.price small{font-size:.85rem;color:var(--muted);font-weight:500;letter-spacing:0}.price-card p{color:var(--muted);font-size:.9rem}.price-card ul{list-style:none;padding:0;color:#d8e6f5;font-size:.9rem;min-height:100px}.price-card li{margin:9px 0}.price-card li:before{content:"✓";color:var(--cyan);margin-right:9px}.price-card .btn{width:100%;margin-top:8px}
+    .cta{padding:44px;border-radius:28px;border:1px solid rgba(72,228,238,.25);background:radial-gradient(ellipse at 85% 10%,rgba(72,228,238,.15),transparent 40%),linear-gradient(135deg,#10243a,#0a1627);display:flex;justify-content:space-between;align-items:center;gap:25px}.cta h2{font-size:clamp(1.8rem,4vw,2.7rem);line-height:1.12;letter-spacing:-.04em;margin:8px 0}.cta p{color:var(--muted);margin:0}.contact-actions{display:flex;gap:10px;flex-wrap:wrap}
+    footer{padding:30px 0 40px;color:var(--muted)}.footer-inner{display:flex;align-items:center;justify-content:space-between;gap:18px;border-top:1px solid var(--line);padding-top:24px;font-size:.88rem}.footlinks{display:flex;gap:17px;flex-wrap:wrap}.footlinks a:hover{color:var(--cyan)}.wa{position:fixed;right:18px;bottom:18px;z-index:5;width:58px;height:58px;border-radius:50%;display:grid;place-items:center;background:#25d366;color:white;font-size:1.7rem;box-shadow:0 10px 28px rgba(0,0,0,.3);border:2px solid rgba(255,255,255,.3)}
+    @media(max-width:850px){.navlinks{display:none}.hero{grid-template-columns:1fr;gap:10px;padding:55px 0 60px;text-align:center}.hero .lead{margin:auto}.actions,.trust{justify-content:center}.visual{min-height:330px}.grid{grid-template-columns:repeat(2,1fr)}.split{grid-template-columns:1fr}.projects,.pricing{grid-template-columns:1fr 1fr}.cta{align-items:flex-start;flex-direction:column}}
+    @media(max-width:560px){.wrap{width:min(100% - 28px,1120px)}.hero{padding-top:38px}.visual{min-height:290px;transform:scale(.9)}section{padding:58px 0}.grid,.projects,.pricing{grid-template-columns:1fr}.card{padding:22px}.section-head{margin-bottom:28px}.cta{padding:27px 22px}.footer-inner{flex-direction:column;align-items:flex-start}.fc1{right:-8px}.fc2{left:-8px}.fc3{right:-12px}.brand{font-size:1rem}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{animation:none!important;transition:none!important}}
+  </style>
+</head>
+<body>
+<header class="wrap">
+  <nav class="nav" aria-label="Main navigation">
+    <a class="brand" href="#home" aria-label="QORVANTA home"><span class="brand-mark">Q</span><span>QORVANTA</span></a>
+    <div class="navlinks"><a href="#services">Services</a><a href="#approach">Our Approach</a><a href="#work">Our Work</a><a href="#pricing">Pricing</a></div>
+    <a class="btn" href="#contact">Start a Project <span aria-hidden="true">↗</span></a>
+  </nav>
+</header>
+<main>
+  <section class="wrap hero" id="home">
+    <div>
+      <span class="eyebrow"><span class="dot"></span> Digital innovation studio</span>
+      <h1>Technology.<br><span class="gradient">Reimagined.</span></h1>
+      <p class="lead">We help ambitious businesses grow with modern websites, intelligent AI solutions, and automation that makes everyday work simpler.</p>
+      <div class="actions"><a class="btn" href="#contact">Let’s Build Something <span aria-hidden="true">↗</span></a><a class="btn secondary" href="#services">Explore Services</a></div>
+      <div class="trust"><span>Built for your business</span><span>Modern & mobile-first</span><span>Human-focused technology</span></div>
+    </div>
+    <div class="visual" aria-label="Abstract technology illustration">
+      <div class="orb"></div><div class="orbit"></div><div class="orbit two"></div>
+      <div class="core">✳</div>
+      <div class="float-card fc1"><b>AI-powered</b><small>Smarter workflows</small></div>
+      <div class="float-card fc2"><b>Web experiences</b><small>Designed to convert</small></div>
+      <div class="float-card fc3"><b>⚡ Automation</b><small>Less repetitive work</small></div>
+    </div>
+  </section>
+
+  <section id="services">
+    <div class="wrap">
+      <div class="section-head"><span class="kicker">What we do</span><h2>Tools and technology<br>for your next stage of growth.</h2><p>From your first online presence to smarter business workflows, we make technology work for you.</p></div>
+      <div class="grid">
+        <article class="card"><div class="icon">⌘</div><h3>Website Development</h3><p>Fast, responsive websites that present your business clearly and help turn visitors into enquiries.</p><a class="tag service-link" data-service="Website Development" href="#contact">Discuss your website ↗</a></article>
+        <article class="card"><div class="icon">✳</div><h3>AI Solutions & Agents</h3><p>Practical AI assistants and custom workflows to help answer questions, organize tasks, and save time.</p><a class="tag service-link" data-service="AI Solutions and Agents" href="#contact">Explore AI solutions ↗</a></article>
+        <article class="card"><div class="icon">▣</div><h3>App Development</h3><p>Useful digital product experiences shaped around your customers, team, and business goals.</p><a class="tag service-link" data-service="App Development" href="#contact">Plan an app ↗</a></article>
+        <article class="card"><div class="icon">⟳</div><h3>Business Automation</h3><p>Connect repetitive steps and simplify everyday operations with thoughtful automation.</p><a class="tag service-link" data-service="Business Automation" href="#contact">Automate a workflow ↗</a></article>
+        <article class="card"><div class="icon">▶</div><h3>Ads & Promotional Videos</h3><p>Short-form promotional video concepts for products, local businesses, and social media campaigns.</p><a class="tag service-link" data-service="Ads and Promotional Videos" href="#contact">Create a video ad ↗</a></article>
+        <article class="card"><div class="icon">↗</div><h3>Digital Growth Support</h3><p>Clear digital recommendations to help your brand communicate better and grow online.</p><a class="tag service-link" data-service="Digital Growth Support" href="#contact">Talk about growth ↗</a></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="band" id="approach">
+    <div class="wrap split">
+      <div><span class="kicker">Our approach</span><h2>Good technology should feel simple.</h2><p>We focus on clear communication, useful solutions, and a process that keeps your goals at the centre of every decision.</p><ul class="checks"><li>Solutions aligned to your real business needs</li><li>Mobile-first experiences from day one</li><li>Transparent scope and communication</li><li>Practical tools, not technology for its own sake</li></ul><a class="btn" href="#contact">Tell Us Your Goal ↗</a></div>
+      <div class="process">
+        <div class="step"><span class="num">01</span><div><b>Discover</b><small>We learn about your business, audience, and challenge.</small></div></div>
+        <div class="step"><span class="num">02</span><div><b>Design</b><small>We map a clear solution and agree on the scope.</small></div></div>
+        <div class="step"><span class="num">03</span><div><b>Build</b><small>We create, review, and refine the experience together.</small></div></div>
+        <div class="step"><span class="num">04</span><div><b>Improve</b><small>We identify practical next steps as your needs evolve.</small></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="work">
+    <div class="wrap">
+      <div class="section-head"><span class="kicker">Selected concepts</span><h2>Ideas made tangible.</h2><p>Example project directions that show how QORVANTA can help businesses use digital tools more effectively.</p></div>
+      <div class="projects">
+        <article class="project"><div class="project-art">✦</div><div class="project-body"><h3>Modern Business Website</h3><p>A clean, mobile-first online home for a growing local business.</p></div></article>
+        <article class="project"><div class="project-art">◎</div><div class="project-body"><h3>AI Customer Assistant</h3><p>A guided assistant concept for answering common customer questions.</p></div></article>
+        <article class="project"><div class="project-art">⚡</div><div class="project-body"><h3>Workflow Automation</h3><p>A streamlined process concept for reducing repetitive admin work.</p></div></article>
+      </div>
+      <p class="demo-note">These are illustrative concepts, not client case studies. Ask us about a demo for your business.</p>
+    </div>
+  </section>
+
+  <section class="band" id="pricing">
+    <div class="wrap">
+      <div class="section-head"><span class="kicker">Video packages</span><h2>Start small. Make an impact.</h2><p>Promotional video options for businesses looking to create social-ready content.</p></div>
+      <div class="pricing">
+        <article class="price-card"><h3>Basic</h3><div class="price">₹499 <small>/ package</small></div><p>A simple starting point for a short promotional video.</p><ul><li>1 short video concept</li><li>Social-friendly vertical format</li><li>One revision request</li></ul><a class="btn secondary price-link" data-package="Basic ₹499" href="#contact">Enquire Now</a></article>
+        <article class="price-card featured"><span class="popular">POPULAR</span><h3>Standard</h3><div class="price">₹999 <small>/ package</small></div><p>For businesses that want a more polished promotion.</p><ul><li>Enhanced video concept</li><li>Text and visual treatment</li><li>One revision request</li></ul><a class="btn price-link" data-package="Standard ₹999" href="#contact">Enquire Now</a></article>
+        <article class="price-card"><h3>Premium</h3><div class="price">₹2,499 <small>/ 3 videos</small></div><p>Multiple short videos for a consistent campaign.</p><ul><li>3 short video concepts</li><li>Consistent campaign look</li><li>One revision request per video</li></ul><a class="btn secondary price-link" data-package="Premium ₹2,499 for 3 videos" href="#contact">Enquire Now</a></article>
+      </div>
+      <p class="demo-note">Final scope, duration, assets, delivery time, and revisions are confirmed before work begins.</p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="wrap">
+      <div class="cta"><div><span class="kicker">Have a project in mind?</span><h2>Let’s make your next idea real.</h2><p>Tell us what you want to build. We’ll discuss a practical next step.</p></div><div class="contact-actions"><a class="btn" id="contact-whatsapp" href="https://wa.me/919528019836?text=Hello%20QORVANTA%2C%20I%27d%20like%20to%20discuss%20a%20project." target="_blank" rel="noopener">Chat on WhatsApp ↗</a><a class="btn secondary" href="mailto:qorvanta.business@gmail.com?subject=Project%20Enquiry">Email Us ↗</a></div></div>
+    </div>
+  </section>
+</main>
+<footer class="wrap"><div class="footer-inner"><a class="brand" href="#home"><span class="brand-mark">Q</span><span>QORVANTA</span></a><span>© <span id="year"></span> QORVANTA. Technology. Reimagined.</span><div class="footlinks"><a href="#services">Services</a><a href="#work">Our Work</a><a href="#contact">Contact</a></div></div></footer>
+<a class="wa" href="https://wa.me/919528019836?text=Hello%20QORVANTA%2C%20I%27d%20like%20to%20discuss%20a%20project." target="_blank" rel="noopener" aria-label="Chat with QORVANTA on WhatsApp">◉</a>
+<script>
+  const phone = "919528019836";
+  const baseMessage = "Hello QORVANTA, I'd like to discuss ";
+  document.querySelectorAll(".service-link").forEach(link => {
+    const service = link.dataset.service;
+    link.href = "https://wa.me/" + phone + "?text=" + encodeURIComponent(baseMessage + service + ".");
+    link.target = "_blank"; link.rel = "noopener";
+  });
+  document.querySelectorAll(".price-link").forEach(link => {
+    const pack = link.dataset.package;
+    link.href = "https://wa.me/" + phone + "?text=" + encodeURIComponent(baseMessage + "the " + pack + " promotional video package.");
+    link.target = "_blank"; link.rel = "noopener";
+  });
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
